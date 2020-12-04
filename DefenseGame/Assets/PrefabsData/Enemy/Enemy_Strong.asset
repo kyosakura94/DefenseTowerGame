@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c72ac398267854ebd0e895ecea0bc1, type: 3}
+  m_Name: Enemy_Strong
+  m_EditorClassIdentifier: 
+  enemyName: Enemy_Strong
+  startSpeed: 5
+  totalHealth: 400
+  turnSpeed: 90
+  dieEffect: {fileID: 156114, guid: a61f8203d35634e42bf81bdc626c3c36, type: 3}
+  prefab: {fileID: 228800384828228358, guid: 108de245ce8ca214095b8d8d51d12b8a, type: 3}
+  mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
+  material: {fileID: 2100000, guid: af7619e380130444ab986a9c230def3a, type: 2}
+  enemyMovement: 2
